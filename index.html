@@ -1,46 +1,90 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<title>Resume</title>
-	<link rel="stylesheet" type="text/css" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Arun | DevOps Engineer</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
 </head>
-<body>
-	<div class="container">
-		<header>
-			<h1>A Monk in Cloud</h1>
-			<p>Web Developer</p>
-		</header>
-		<section>
-			<h2>Summary</h2>
-			<p>A highly motivated web developer with 5+ years of experience creating dynamic and responsive web applications. Strong skills in HTML, CSS, and JavaScript, with a passion for creating visually appealing and user-friendly interfaces. Committed to staying up-to-date with the latest trends and technologies in the industry.</p>
-		</section>
-		<section>
-			<h2>Skills</h2>
-			<ul>
-				<li>HTML</li>
-				<li>CSS</li>
-				<li>JavaScript</li>
-				<li>jQuery</li>
-				<li>Bootstrap</li>
-				<li>React</li>
-			</ul>
-		</section>
-		<section>
-			<h2>Experience</h2>
-			<h3>Web Developer, XYZ Company</h3>
-			<p>Developed and maintained multiple company websites using HTML, CSS, and JavaScript. Collaborated with designers and project managers to create visually appealing and user-friendly interfaces. Conducted regular code reviews to ensure high-quality and efficient code. </p>
-			<h3>Web Developer, ABC Agency</h3>
-			<p>Designed and implemented custom WordPress themes and plugins. Worked closely with clients to gather requirements and provide technical support. Conducted regular testing and debugging to ensure optimal performance.</p>
-		</section>
-		<section>
-			<h2>Education</h2>
-			<h3>Bachelor of Science in Computer Science</h3>
-			<p>University of ABC, Graduated May 20XX</p>
-		</section>
-		<section id="projects">
-			<h2>Projects</h2>
-			<p>Some text about your projects...</p>
-		</section>
-	</div>
+<body class="bg-gray-100 text-gray-800">
+
+<!-- Header -->
+<header class="bg-blue-600 text-white py-6">
+  <div class="container mx-auto px-4 text-center">
+    <h1 class="text-4xl font-bold">Arun | DevOps Engineer</h1>
+    <p class="mt-2">
+      <a href="http://www.linkedin.com/in/arun-singh-481569175" target="_blank" class="hover:underline">LinkedIn</a> |
+      <a href="mailto:arungusain829@gmail.com" class="hover:underline">arungusain829@gmail.com</a> |
+      New Delhi, India
+    </p>
+  </div>
+</header>
+
+<!-- Main Content -->
+<main class="container mx-auto px-4 my-8">
+  <!-- Objective Section -->
+  <section class="bg-white p-6 rounded-lg shadow-lg mb-6">
+    <h2 class="text-2xl font-semibold text-blue-600 mb-4">Objective / Professional Summary</h2>
+    <p>Cloud Engineer with hands-on experience in AWS services, Docker, and CI/CD pipelines. Proficient in automating infrastructure operations and managing scalable systems. Skilled in monitoring, alerting, and problem-solving with a drive for reliability and efficiency. Open to relocation and actively seeking full-time opportunities to contribute to innovative cloud solutions and collaborate with dynamic teams.</p>
+  </section>
+
+  <!-- Skills Section -->
+  <section class="bg-white p-6 rounded-lg shadow-lg mb-6">
+    <h2 class="text-2xl font-semibold text-blue-600 mb-4">Key Skills and Tools</h2>
+    <ul class="list-disc ml-6 space-y-2">
+      <li><strong>Cloud Computing:</strong> AWS (EC2, S3, IAM, VPC, CloudFormation)</li>
+      <li><strong>Containerization & CI/CD Tools:</strong> Docker, ECS, Jenkins, Git</li>
+      <li><strong>Networking & Operating Systems:</strong> VPC, DNS, TCP/IP, VPN, Linux, Windows</li>
+      <li><strong>Monitoring and Automation Tools:</strong> AWS CloudWatch, AWS CLI, Terraform</li>
+      <li><strong>Soft Skills:</strong> Effective Communication, Team Collaboration, Adaptability, Problem Solving</li>
+    </ul>
+  </section>
+
+  <!-- Work Experience Section -->
+  <section class="bg-white p-6 rounded-lg shadow-lg mb-6">
+    <h2 class="text-2xl font-semibold text-blue-600 mb-4">Work Experience</h2>
+    <p><strong>Operation Executive at TCS ion (Feb '23 – Jun '24)</strong></p>
+    <ul class="list-disc ml-6 space-y-2">
+      <li>Monitored server performance using cloud-based tools and maintained 99.9% uptime while addressing technical issues to ensure operational continuity.</li>
+      <li>Gained experience with AWS tools to streamline processes and manage system resources efficiently.</li>
+      <li>Collaborated with cross-functional teams to optimize workflows, reducing resource utilization costs by 15%.</li>
+    </ul>
+  </section>
+
+  <!-- Projects Section -->
+  <section class="bg-white p-6 rounded-lg shadow-lg mb-6">
+    <h2 class="text-2xl font-semibold text-blue-600 mb-4">Projects</h2>
+    <ul class="list-disc ml-6 space-y-2">
+      <li><strong>Automated CI/CD Pipeline for Node.js on AWS:</strong> Designed and implemented a fully automated CI/CD pipeline using AWS CodePipeline, CodeBuild, CodeDeploy, and S3 for seamless Node.js application deployment on EC2. Integrated GitHub webhooks for real-time build and deployment triggers, reducing deployment time by 40% and ensuring zero-downtime releases.</li>
+      <li><strong>Serverless Web Application with AWS:</strong> Developed a highly scalable, cost-efficient serverless architecture using S3, CloudFront, Route 53, Lambda, and DynamoDB, reducing latency by 50%. Hosted a static website on S3, served with CloudFront availability, and integrated Lambda + API Gateway for dynamic processing with DynamoDB single-digit millisecond latency. Secured access with IAM, ensuring seamless scalability and 99.9% uptime.</li>
+    </ul>
+  </section>
+
+  <!-- Education Section -->
+  <section class="bg-white p-6 rounded-lg shadow-lg mb-6">
+    <h2 class="text-2xl font-semibold text-blue-600 mb-4">Education & Certifications</h2>
+    <ul class="list-disc ml-6 space-y-2">
+      <li><strong>Bachelor of Arts:</strong> SOL, Delhi University, 2018</li>
+      <li><strong>AWS Solutions Architect Certification:</strong> Intellipaat.com (Completed)</li>
+      <li><strong>Linux & Python Certification:</strong> Intellipaat.com (In Progress)</li>
+    </ul>
+  </section>
+
+  <!-- Technical Proficiencies Section -->
+  <section class="bg-white p-6 rounded-lg shadow-lg">
+    <h2 class="text-2xl font-semibold text-blue-600 mb-4">Technical Proficiencies</h2>
+    <ul class="list-disc ml-6 space-y-2">
+      <li><strong>Networking & Server Knowledge:</strong> Basics of VPC, Servers, and Cloud infrastructure</li>
+      <li><strong>Tools:</strong> AWS EC2, S3, RDS, VPC, CloudWatch, and Basics of Terraform</li>
+      <li><strong>Operating Systems & Software:</strong> Linux, Windows, MS Office Suite, and troubleshooting tools</li>
+    </ul>
+  </section>
+</main>
+
+<!-- Footer -->
+<footer class="bg-blue-600 text-white text-center py-4">
+  <p>&copy; 2025 Arun Singh. All Rights Reserved.</p>
+</footer>
+
 </body>
 </html>
